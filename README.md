@@ -31,7 +31,7 @@
 2. Если вам нужно явно указать `sudo`:
 
     ```bash
-    sudo bash <(curl -Ls https://raw.githubusercontent.com/KostenkoV-V/VPS-setup/main/setup_server.sh)
+    sudo curl -Ls https://raw.githubusercontent.com/KostenkoV-V/VPS-setup/main/setup_server.sh -o /tmp/setup_server.sh && sudo bash /tmp/setup_server.sh
     ```
 
 ## Основные этапы работы скрипта
