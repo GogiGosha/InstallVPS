@@ -44,7 +44,7 @@ check_logs() {
 echo "Обновление и установка пакетов..."
 
 # 1. Обновление списка пакетов
-show_progress 20
+# show_progress 20
 # apt-get update -y >/dev/null 2>&1
 # show_progress 30
 
