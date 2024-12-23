@@ -45,12 +45,12 @@ echo "Обновление и установка пакетов..."
 
 # 1. Обновление списка пакетов
 show_progress 20
-apt-get update -y >/dev/null 2>&1
-show_progress 30
+# apt-get update -y >/dev/null 2>&1
+# show_progress 30
 
 # 2. Обновление существующих пакетов
-apt-get upgrade -y >/dev/null 2>&1
-show_progress 50
+# apt-get upgrade -y >/dev/null 2>&1
+# show_progress 50
 
 # 3. Установка sudo
 apt-get install -y sudo >/dev/null 2>&1
