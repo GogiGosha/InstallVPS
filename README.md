@@ -25,13 +25,13 @@
 1. Для запуска скрипта с правами `root`:
 
     ```bash
-    bash <(curl -Ls https://raw.githubusercontent.com/KostenkoV-V/VPS-setup/main/setup_server.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/GogiGosha/InstallVPS/refs/heads/main/setup_server.sh)
     ```
 
 2. Если вам нужно явно указать `sudo`:
 
     ```bash
-    sudo curl -Ls https://raw.githubusercontent.com/KostenkoV-V/VPS-setup/main/setup_server.sh -o /tmp/setup_server.sh && sudo bash /tmp/setup_server.sh
+    sudo curl -Ls https://raw.githubusercontent.com/GogiGosha/InstallVPS/refs/heads/main/setup_server.sh -o /tmp/setup_server.sh && sudo bash /tmp/setup_server.sh
     ```
 
 ## Основные этапы работы скрипта
